@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Mother's Day ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(to bottom,#fff0f5,#ffe4ec,#ffffff);
+overflow-x:hidden;
+color:#333;
+}
+
+/* FLOATING HEARTS */
+
+.hearts{
+position:fixed;
+width:100%;
+height:100%;
+overflow:hidden;
+pointer-events:none;
+z-index:0;
+}
+
+.hearts span{
+position:absolute;
+bottom:-50px;
+color:#ff4d88;
+animation:float 10s linear infinite;
+opacity:0.7;
+}
+
+.hearts span:nth-child(1){left:10%;font-size:20px;}
+.hearts span:nth-child(2){left:30%;font-size:35px;animation-delay:2s;}
+.hearts span:nth-child(3){left:50%;font-size:25px;animation-delay:4s;}
+.hearts span:nth-child(4){left:70%;font-size:30px;animation-delay:1s;}
+.hearts span:nth-child(5){left:90%;font-size:22px;animation-delay:3s;}
+
+@keyframes float{
+
+0%{
+transform:translateY(0) rotate(0deg);
+opacity:0;
+}
+
+20%{
+opacity:1;
+}
+
+100%{
+transform:translateY(-120vh) rotate(360deg);
+opacity:0;
+}
+
+}
+
+/* NAVBAR */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+padding:18px;
+display:flex;
+justify-content:center;
+gap:18px;
+background:rgba(255,255,255,0.5);
+backdrop-filter:blur(10px);
+z-index:999;
+flex-wrap:wrap;
+}
+
+nav a{
+text-decoration:none;
+color:#d63384;
+font-weight:600;
+}
+
+/* SECTIONS */
+
+section{
+min-height:100vh;
+padding:120px 8%;
+position:relative;
+z-index:2;
+}
+
+.title{
+text-align:center;
+font-size:3.5rem;
+margin-bottom:50px;
+color:#d63384;
+font-family:'Playfair Display',serif;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:5rem;
+color:#d63384;
+margin-bottom:20px;
+font-family:'Playfair Display',serif;
+}
+
+.hero p{
+font-size:1.2rem;
+line-height:2;
+max-width:850px;
+margin:auto;
+margin-bottom:35px;
+}
+
+/* BUTTON */
+
+button{
+padding:15px 35px;
+border:none;
+border-radius:50px;
+background:linear-gradient(to right,#ff4d88,#d63384);
+color:white;
+font-weight:600;
+cursor:pointer;
+margin:10px;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+/* BOX */
+
+.box{
+background:rgba(255,255,255,0.45);
+backdrop-filter:blur(12px);
+padding:55px;
+border-radius:40px;
+box-shadow:0 15px 35px rgba(0,0,0,0.08);
+max-width:950px;
+margin:auto;
+}
+
+/* TOP INFO */
+
+.top{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-bottom:25px;
+}
+
+.info{
+background:white;
+padding:12px 25px;
+border-radius:50px;
+color:#d63384;
+font-weight:600;
+}
+
+/* INPUT */
+
+input{
+width:100%;
+padding:18px;
+border:none;
+border-radius:20px;
+margin-top:20px;
+margin-bottom:20px;
+font-size:1rem;
+}
+
+/* CHAT */
+
+.chat-box{
+background:white;
+padding:30px;
+border-radius:30px;
+line-height:2;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* GAME */
+
+#scrambled-word{
+font-size:4rem;
+color:#ff4d88;
+letter-spacing:8px;
+margin-bottom:20px;
+text-align:center;
+}
+
+/* FOOTER */
+
+footer{
+background:#d63384;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:3.2rem;
+}
+
+.title{
+font-size:2.5rem;
+}
+
+.box{
+padding:35px 20px;
+}
+
+#scrambled-word{
+font-size:2.5rem;
+letter-spacing:4px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- MUSIC -->
+
+<audio autoplay loop controls style="position:fixed;bottom:10px;right:10px;z-index:999;">
+<source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<!-- HEARTS -->
+
+<div class="hearts">
+
+<span>❤️</span>
+<span>❤️</span>
+<span>❤️</span>
+<span>❤️</span>
+<span>❤️</span>
+
+</div>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#special">Special</a>
+<a href="#talk">Talk</a>
+<a href="#letter">Letter</a>
+<a href="#game1">Game 1</a>
+<a href="#game2">Game 2</a>
+<a href="#game3">Game 3</a>
+<a href="#realtalk">Note</a>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div>
+
+<h1>Happy Mother's Day ❤️</h1>
+
+<p>
+
+For the woman who gave me endless love,
+strength, happiness and care every single day.
+Thank you for being my biggest blessing 💖
+
+</p>
+
+<button onclick="document.getElementById('special').scrollIntoView({behavior:'smooth'})">
+
+Start The Surprise ✨
+
+</button>
+
+</div>
+
+</section>
+
+<!-- SPECIAL -->
+
+<section id="special">
+
+<h2 class="title">
+
+Why You're Amazing 🌸
+
+</h2>
+
+<div class="box" style="text-align:center;">
+
+<h1 id="love-emoji" style="font-size:6rem;">
+💖
+</h1>
+
+<h2 id="compliment" style="color:#d63384;margin-top:20px;">
+
+You make every bad day feel safe ❤️
+
+</h2>
+
+<br>
+
+<button onclick="newCompliment()">
+
+New Compliment ✨
+
+</button>
+
+<button onclick="giveHeart()">
+
+Give Love ❤️
+
+</button>
+
+<div class="top" style="margin-top:30px;">
+
+<div class="info">
+
+💌 Hearts:
+<span id="heart-count">0</span>
+
+</div>
+
+<div class="info">
+
+🌸 Happiness:
+<span id="happiness">0</span>%
+
+</div>
+
+</div>
+
+<div style="
+width:100%;
+height:18px;
+background:#ffd6e7;
+border-radius:30px;
+overflow:hidden;
+margin-top:20px;
+">
+
+<div id="happy-bar" style="
+width:0%;
+height:100%;
+background:linear-gradient(to right,#ff4d88,#d63384);
+transition:0.4s;
+"></div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TALKING SECTION -->
+
+<section id="talk">
+
+<h2 class="title">
+
+A Little Conversation 💬
+
+</h2>
+
+<div class="box">
+
+<div class="chat-box">
+
+<p><b>You:</b> Mom, are you tired?</p>
+
+<p><b>Mom:</b> A little… but seeing you happy makes everything worth it ❤️</p>
+
+<p><b>You:</b> Thank you for always staying beside me.</p>
+
+<p><b>Mom:</b> I always will 💖</p>
+
+<p><b>You:</b> Even when I annoy you?</p>
+
+<p><b>Mom:</b> Especially then 😭❤️</p>
+
+<p><b>You:</b> I love you forever.</p>
+
+<p><b>Mom:</b> I love you more 🌸</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- LETTER -->
+
+<section id="letter">
+
+<h2 class="title">
+
+A Letter For Mom 💌
+
+</h2>
+
+<div class="box">
+
+<p style="line-height:2;font-size:1.1rem;">
+
+Dear Mom,<br><br>
+
+Thank you for every sacrifice,
+every smile,
+every hug,
+and every moment you stayed beside me.<br><br>
+
+You are my safest place,
+my inspiration,
+and my home.<br><br>
+
+No matter what happens in life,
+your love always gives me strength ❤️<br><br>
+
+I love you forever 💖
+
+</p>
+
+</div>
+
+</section>
+
+<!-- GAME 1 -->
+
+<section id="game1">
+
+<h2 class="title">
+
+Word Scramble 🎮
+
+</h2>
+
+<div class="box">
+
+<div class="top">
+
+<div class="info">
+
+⭐ Score:
+<span id="score">0</span>
+
+</div>
+
+<div class="info">
+
+⏳ Time:
+<span id="timer">30</span>s
+
+</div>
+
+</div>
+
+<h1 id="scrambled-word">
+
+LOADING
+
+</h1>
+
+<p id="hint" style="text-align:center;"></p>
+
+<input
+type="text"
+id="guess-input"
+placeholder="Type your answer..."
+>
+
+<div style="text-align:center;">
+
+<button onclick="checkGuess()">
+
+Check 💌
+
+</button>
+
+<button onclick="nextWord()">
+
+Next ✨
+
+</button>
+
+</div>
+
+<h3 id="result" style="text-align:center;color:#d63384;margin-top:20px;"></h3>
+
+</div>
+
+</section>
+
+<!-- GAME 2 -->
+
+<section id="game2">
+
+<h2 class="title">
+
+Calm The Angry Mom 😭
+
+</h2>
+
+<div class="box" style="text-align:center;">
+
+<h1 id="mood" style="font-size:7rem;">
+😡
+</h1>
+
+<h2 id="mood-text" style="color:#d63384;margin-top:20px;">
+
+Mom is angry because nobody helped her 😭
+
+</h2>
+
+<br>
+
+<button onclick="calmMom('hug')">
+
+Give Hug 🤗
+
+</button>
+
+<button onclick="calmMom('flowers')">
+
+Give Flowers 🌸
+
+</button>
+
+<button onclick="calmMom('help')">
+
+Help Her 🧹
+
+</button>
+
+<button onclick="calmMom('nothing')">
+
+Do Nothing 😭
+
+</button>
+
+</div>
+
+</section>
+
+<!-- GAME 3 -->
+
+<section id="game3">
+
+<h2 class="title">
+
+Catch The Hearts ❤️
+
+</h2>
+
+<div class="box" style="text-align:center;">
+
+<h1 id="heart-game" style="font-size:6rem;">
+❤️
+</h1>
+
+<h2 style="color:#d63384;">
+Tap the button before time ends!
+</h2>
+
+<br>
+
+<div class="top">
+
+<div class="info">
+
+❤️ Hearts:
+<span id="tap-score">0</span>
+
+</div>
+
+<div class="info">
+
+⏳ Time:
+<span id="tap-timer">15</span>s
+
+</div>
+
+</div>
+
+<button onclick="tapHeart()">
+
+Catch Heart 💖
+
+</button>
+
+<button onclick="restartHeartGame()">
+
+Restart 🔄
+
+</button>
+
+<h3 id="tap-result" style="margin-top:25px;color:#d63384;"></h3>
+
+</div>
+
+</section>
+
+<!-- REAL TALK -->
+
+<section id="realtalk">
+
+<h2 class="title">
+
+Something I Really Want To Say 💖
+
+</h2>
+
+<div class="box">
+
+<h2 style="
+text-align:center;
+color:#d63384;
+margin-bottom:30px;
+font-size:2rem;
+">
+
+Thank You For Handling Me 😭❤️
+
+</h2>
+
+<p style="
+line-height:2.3;
+font-size:1.15rem;
+text-align:center;
+">
+
+I know I disturb you A LOT 😭<br><br>
+
+Sometimes I annoy you,
+sometimes I argue,
+sometimes I don't listen,
+and sometimes I act stubborn for absolutely no reason 💀<br><br>
+
+But even after all that,
+you still love me,
+care for me,
+listen to me,
+support me,
+and stay beside me every single day ❤️<br><br>
+
+You never stop trying to make me happy,
+even when you're tired yourself.<br><br>
+
+And honestly...
+I don't say this enough,
+but I notice everything you do for me 🌸<br><br>
+
+You're not just my mom,
+you're literally my safest place,
+my comfort person,
+and the reason life feels easier 💖<br><br>
+
+Thank you for always controlling your anger,
+understanding me,
+and loving me even at my most annoying moments 😭❤️
+
+</p>
+
+<div style="
+margin-top:40px;
+padding:30px;
+border-radius:30px;
+background:white;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+">
+
+<h2 style="color:#ff4d88;">
+
+🌸 Compliment Machine 🌸
+
+</h2>
+
+<br>
+
+<h3 id="mom-compliment" style="
+color:#d63384;
+font-size:1.5rem;
+line-height:1.8;
+">
+
+You are the best mom in the universe 💖
+
+</h3>
+
+<br>
+
+<button onclick="newMomCompliment()">
+
+Generate Compliment ✨
+
+</button>
+
+</div>
+
+<div style="
+margin-top:40px;
+padding:35px;
+border-radius:30px;
+background:linear-gradient(to right,#ff4d88,#d63384);
+color:white;
+text-align:center;
+">
+
+<h2 style="
+font-size:2rem;
+margin-bottom:20px;
+">
+
+And One Last Thing... 🌸
+
+</h2>
+
+<p style="
+line-height:2;
+font-size:1.15rem;
+">
+
+I may not be perfect right now 😭<br><br>
+
+I may make mistakes,
+be lazy sometimes,
+annoy you,
+or not score as well as I should... 💀<br><br>
+
+But I promise I'll keep trying harder ❤️<br><br>
+
+And next time...
+I'll score better,
+make you prouder,
+help you more,
+and become someone you can always smile about 💖
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<h2>
+
+Happy Mother's Day ❤️
+
+</h2>
+
+<p>
+
+Made with love for the best mom in the world 💖
+
+</p>
+
+</footer>
+
+<script>
+
+/* SPECIAL */
+
+const compliments=[
+
+"You make every bad day feel safe ❤️",
+"Your hugs fix everything 🤗",
+"You are the strongest person I know 💪",
+"You make life beautiful 🌸",
+"You are my biggest blessing 💖"
+
+];
+
+let heartCount=0;
+let happiness=0;
+
+function newCompliment(){
+
+let random=
+compliments[
+Math.floor(Math.random()*compliments.length)
+];
+
+document
+.getElementById("compliment")
+.innerText=random;
+
+}
+
+function giveHeart(){
+
+heartCount++;
+
+if(happiness<100){
+
+happiness+=10;
+
+}
+
+document
+.getElementById("heart-count")
+.innerText=heartCount;
+
+document
+.getElementById("happiness")
+.innerText=happiness;
+
+document
+.getElementById("happy-bar")
+.style.width=happiness+"%";
+
+}
+
+/* GAME 1 */
+
+const words=[
+
+{
+word:"mother",
+hint:"The heart of every home ❤️"
+},
+
+{
+word:"support",
+hint:"Something moms always give"
+},
+
+{
+word:"family",
+hint:"People who love you forever"
+},
+
+{
+word:"comfort",
+hint:"What a hug from mom feels like"
+}
+
+];
+
+let currentWord={};
+let score=0;
+let time=30;
+let timer;
+
+function scramble(word){
+
+return word
+.split('')
+.sort(()=>Math.random()-0.5)
+.join('');
+
+}
+
+function startTimer(){
+
+clearInterval(timer);
+
+time=30;
+
+document
+.getElementById("timer")
+.innerText=time;
+
+timer=setInterval(()=>{
+
+time--;
+
+document
+.getElementById("timer")
+.innerText=time;
+
+if(time<=0){
+
+clearInterval(timer);
+
+document
+.getElementById("result")
+.innerText="Time's Up 💔";
+
+}
+
+},1000);
+
+}
+
+function nextWord(){
+
+currentWord=
+words[Math.floor(Math.random()*words.length)];
+
+document
+.getElementById("scrambled-word")
+.innerText=
+scramble(currentWord.word);
+
+document
+.getElementById("hint")
+.innerText=
+"Hint: "+currentWord.hint;
+
+document
+.getElementById("guess-input")
+.value="";
+
+document
+.getElementById("result")
+.innerText="";
+
+startTimer();
+
+}
+
+function checkGuess(){
+
+let guess=
+document
+.getElementById("guess-input")
+.value
+.toLowerCase();
+
+if(guess===currentWord.word){
+
+score+=10;
+
+document
+.getElementById("score")
+.innerText=score;
+
+document
+.getElementById("result")
+.innerText="Correct 💖";
+
+clearInterval(timer);
+
+}
+else{
+
+document
+.getElementById("result")
+.innerText="Try Again ✨";
+
+}
+
+}
+
+nextWord();
+
+/* GAME 2 */
+
+function calmMom(action){
+
+let mood=
+document.getElementById("mood");
+
+let text=
+document.getElementById("mood-text");
+
+if(action==="hug"){
+
+mood.innerText="🥺";
+text.innerText="Aww... Mom feels better now ❤️";
+
+}
+
+else if(action==="flowers"){
+
+mood.innerText="😊";
+text.innerText="Mom loved the flowers 🌸";
+
+}
+
+else if(action==="help"){
+
+mood.innerText="😍";
+text.innerText="Helping her made Mom SUPER happy 💖";
+
+}
+
+else{
+
+mood.innerText="😤";
+text.innerText="BRO HELP YOUR MOM 😭";
+
+}
+
+}
+
+/* GAME 3 */
+
+let tapScore=0;
+let tapTime=15;
+let tapTimer;
+
+function startTapTimer(){
+
+clearInterval(tapTimer);
+
+tapTime=15;
+
+document
+.getElementById("tap-timer")
+.innerText=tapTime;
+
+tapTimer=setInterval(()=>{
+
+tapTime--;
+
+document
+.getElementById("tap-timer")
+.innerText=tapTime;
+
+if(tapTime<=0){
+
+clearInterval(tapTimer);
+
+document
+.getElementById("tap-result")
+.innerText="Time's Up 😭";
+
+}
+
+},1000);
+
+}
+
+function tapHeart(){
+
+if(tapTime<=0){
+
+return;
+
+}
+
+tapScore++;
+
+document
+.getElementById("tap-score")
+.innerText=tapScore;
+
+if(tapScore<10){
+
+document
+.getElementById("tap-result")
+.innerText="Keep collecting love ❤️";
+
+}
+
+else if(tapScore<20){
+
+document
+.getElementById("tap-result")
+.innerText="Mom is smiling now 😊";
+
+}
+
+else{
+
+document
+.getElementById("tap-result")
+.innerText="YOU FILLED MOM'S HEART WITH LOVE 💖";
+
+document
+.getElementById("heart-game")
+.innerText="🥰";
+
+clearInterval(tapTimer);
+
+}
+
+}
+
+function restartHeartGame(){
+
+tapScore=0;
+
+document
+.getElementById("tap-score")
+.innerText=0;
+
+document
+.getElementById("tap-result")
+.innerText="";
+
+document
+.getElementById("heart-game")
+.innerText="❤️";
+
+startTapTimer();
+
+}
+
+startTapTimer();
+
+/* COMPLIMENT MACHINE */
+
+const momCompliments=[
+
+"You are the best mom in the universe 💖",
+"You deserve every happiness in the world 🌸",
+"You make life feel safe ❤️",
+"You are stronger than every superhero 💪",
+"You are literally my favorite human 💖"
+
+];
+
+function newMomCompliment(){
+
+let random=
+
+momCompliments[
+Math.floor(Math.random()*momCompliments.length)
+];
+
+document
+.getElementById("mom-compliment")
+.innerText=random;
+
+}
+
+</script>
+
+</body>
+
+</html>
